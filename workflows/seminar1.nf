@@ -5,6 +5,13 @@
 */
 include { paramsSummaryMap       } from 'plugin/nf-schema'
 include { softwareVersionsToYAML } from '../subworkflows/nf-core/utils_nfcore_pipeline'
+include { STAR_ALIGN } from '../modules/nf-core/star/align/main'
+include { TRIMGALORE } from '../modules/nf-core/trimgalore/main'
+include { FASTQC } from '../modules/nf-core/fastqc/main'
+include { MULTIQC } from '../modules/nf-core/multiqc/main'
+include { SALMON_QUANT } from '../modules/nf-core/salmon/quant/main'
+include { DUPRADAR } from '../modules/nf-core/dupradar/main'
+include { QUALIMAP_RNASEQ } from '../modules/nf-core/qualimap/rnaseq/main'
 
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
