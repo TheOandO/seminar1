@@ -141,7 +141,7 @@
                 }
             }
         },
-                "reference_genome_options": {
+        "reference_genome_options": {
             "title": "Reference genome options",
             "description": "Reference FASTA, annotation, and index files.",
             "fa_icon": "fas fa-dna",
@@ -183,48 +183,6 @@
             }
         }
     },
-    "reference_genome_options": {
-        "title": "Reference genome options",
-        "description": "Reference FASTA, annotation, and index files.",
-        "fa_icon": "fas fa-dna",
-        "type": "object",
-        "properties": {
-            "fasta": {
-                "type": "string",
-                "format": "file-path",
-                "exists": true,
-                "pattern": "^.+\\.(fa|fasta)(\\.gz)?$",
-                "description": "Genome FASTA file."
-            },
-            "gtf": {
-                "type": "string",
-                "format": "file-path",
-                "exists": true,
-                "pattern": "^.+\\.(gtf|gff|gff3)(\\.gz)?$",
-                "description": "Genome annotation in GTF or GFF format."
-            },
-            "transcriptome": {
-                "type": "string",
-                "format": "file-path",
-                "exists": true,
-                "pattern": "^.+\\.(fa|fasta|fa.gz|fasta.gz)$",
-                "description": "Transcriptome FASTA file for Salmon quantification."
-            },
-            "star_index": {
-                "type": "string",
-                "format": "directory-path",
-                "exists": true,
-                "description": "Directory containing the precomputed STAR index."
-            },
-            "salmon_index": {
-                "type": "string",
-                "format": "directory-path",
-                "exists": true,
-                "description": "Directory containing the precomputed Salmon index."
-            }
-        }
-    },
-    
     "allOf": [
         {
             "$ref": "#/$defs/input_output_options"

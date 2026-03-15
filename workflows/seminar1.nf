@@ -77,7 +77,7 @@ workflow SEMINAR1 {
         ch_star_bams,
         ch_gtf.map { [ [:], it ] }
     )
-
+    // DupRadar output files
     ch_multiqc_files = ch_multiqc_files.mix(DUPRADAR.out.multiqc.collect{ it[1] })
 
     // Qualimap RNA-seq
@@ -85,7 +85,7 @@ workflow SEMINAR1 {
         ch_star_bams,
         ch_gtf.map { [ [:], it ] }
     )
-
+    // Qualimap output files
     ch_multiqc_files = ch_multiqc_files.mix(QUALIMAP_RNASEQ.out.results.collect{ it[1] })
 
     // Run MultiQC
