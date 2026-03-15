@@ -51,7 +51,7 @@ nextflow run hs/seminar1 \
 
 ## Credits
 
-hs/seminar1 was originally written by Khanh Trinh, Mehraj Yousaf.
+hs/seminar1 was originally written by Khanh Trinh.
 
 We thank the following people for their extensive assistance in the development of this pipeline:
 
