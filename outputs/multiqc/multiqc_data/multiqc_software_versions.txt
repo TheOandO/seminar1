@@ -1,0 +1,5 @@
+Sample	RNASeq	Salmon	Cutadapt	FastQC
+Cutadapt			5.2	
+FastQC				0.12.1
+QualiMap	2.3			
+Salmon		1.10.3		

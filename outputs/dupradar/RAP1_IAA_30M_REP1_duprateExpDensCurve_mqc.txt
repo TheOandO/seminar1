@@ -1,0 +1,45 @@
+#id: dupradar
+#plot_type: 'linegraph'
+#section_name: 'DupRadar'
+#section_href: 'bioconductor.org/packages/release/bioc/html/dupRadar.html'
+#description: "provides duplication rate quality control for RNA-Seq datasets. Highly expressed genes can be expected to have a lot of duplicate reads, but high numbers of duplicates at low read counts can indicate low library complexity with technical duplication.
+#    This plot shows the general linear models - a summary of the gene duplication distributions. "
+#pconfig:
+#    title: 'DupRadar General Linear Model'
+#    xlog: True
+#    xlab: 'expression (reads/kbp)'
+#    ylab: '% duplicate reads'
+#    ymax: 100
+#    ymin: 0
+#    tt_label: '<b>{point.x:.1f} reads/kbp</b>: {point.y:,.2f}% duplicates'
+#    x_lines:
+#        - color: 'green'
+#          dash: 'LongDash'
+#          label:
+#                text: '0.5 RPKM'
+#          value: 0.5
+#          width: 1
+#        - color: 'red'
+#          dash: 'LongDash'
+#          label:
+#                text: '1 read/bp'
+#          value: 1000
+#          width: 1
+0.188182160331201 2.90070146546837e-10
+0.443262411347518 2.90070146546837e-10
+0.948946669197191 2.90070146546836e-10
+1.88182160331201 2.90070146546836e-10
+2.84900284900285 2.90070146546835e-10
+4.90196078431372 2.90070146546835e-10
+6.4528373505409 2.90070146546835e-10
+8.54052002277472 2.90070146546835e-10
+9.52380952380952 2.90070146546835e-10
+11.2359550561798 2.90070146546834e-10
+13.8888888888889 2.90070146546834e-10
+17.0810400455494 2.90070146546834e-10
+22.6385636221702 2.90070146546834e-10
+27.2904483430799 2.90070146546834e-10
+32.258064516129 2.90070146546834e-10
+51.8707482993197 2.90070146546833e-10
+128.498727735369 2.90070146546833e-10
+1543.75 2.90070146546831e-10

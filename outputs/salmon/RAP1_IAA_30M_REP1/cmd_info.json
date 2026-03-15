@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.3",
+    "geneMap": "Saccharomyces_cerevisiae.R64-1-1.115.gtf",
+    "threads": "4",
+    "libType": "IU",
+    "index": "salmon_index",
+    "mates1": "RAP1_IAA_30M_REP1_1_val_1.fq.gz",
+    "mates2": "RAP1_IAA_30M_REP1_2_val_2.fq.gz",
+    "output": "RAP1_IAA_30M_REP1",
+    "auxDir": "aux_info"
+}

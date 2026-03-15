@@ -1,0 +1,141 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-01-09T12:32:06+0000 :/opt/conda/conda-bld/star_1736425784849/work/source
+##### Command Line:
+/opt/conda/bin/STAR-avx2 --genomeDir star_index --readFilesIn input1/RAP1_UNINDUCED_REP2_trimmed.fq.gz --runThreadN 4 --outFileNamePrefix RAP1_UNINDUCED_REP2. --outSAMtype BAM Unsorted --sjdbGTFfile Saccharomyces_cerevisiae.R64-1-1.115.gtf --outSAMattrRGline ID:RAP1_UNINDUCED_REP2 SM:RAP1_UNINDUCED_REP2 --readFilesCommand zcat
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 RAP1_UNINDUCED_REP2.
+###### All USER parameters from Command Line:
+genomeDir                     star_index     ~RE-DEFINED
+readFilesIn                   input1/RAP1_UNINDUCED_REP2_trimmed.fq.gz        ~RE-DEFINED
+runThreadN                    4     ~RE-DEFINED
+outFileNamePrefix             RAP1_UNINDUCED_REP2.     ~RE-DEFINED
+outSAMtype                    BAM   Unsorted        ~RE-DEFINED
+sjdbGTFfile                   Saccharomyces_cerevisiae.R64-1-1.115.gtf     ~RE-DEFINED
+outSAMattrRGline              ID:RAP1_UNINDUCED_REP2   SM:RAP1_UNINDUCED_REP2        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        4
+genomeDir                         star_index
+readFilesIn                       input1/RAP1_UNINDUCED_REP2_trimmed.fq.gz   
+readFilesCommand                  zcat   
+outFileNamePrefix                 RAP1_UNINDUCED_REP2.
+outSAMtype                        BAM   Unsorted   
+outSAMattrRGline                  ID:RAP1_UNINDUCED_REP2   SM:RAP1_UNINDUCED_REP2   
+sjdbGTFfile                       Saccharomyces_cerevisiae.R64-1-1.115.gtf
+
+-------------------------------
+##### Final effective command line:
+/opt/conda/bin/STAR-avx2   --runThreadN 4   --genomeDir star_index   --readFilesIn input1/RAP1_UNINDUCED_REP2_trimmed.fq.gz      --readFilesCommand zcat      --outFileNamePrefix RAP1_UNINDUCED_REP2.   --outSAMtype BAM   Unsorted      --outSAMattrRGline ID:RAP1_UNINDUCED_REP2   SM:RAP1_UNINDUCED_REP2      --sjdbGTFfile Saccharomyces_cerevisiae.R64-1-1.115.gtf
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-r--r-- 1 a25khatr@hs.local student@hs.local 2256039 Mar 15 14:18 input1/RAP1_UNINDUCED_REP2_trimmed.fq.gz
+
+   readsCommandsFile:
+exec > "RAP1_UNINDUCED_REP2._STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "input1/RAP1_UNINDUCED_REP2_trimmed.fq.gz"
+
+WARNING --outSAMattrRG defines a read group, therefore STAR will output RG attribute
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+Reading genome generation parameters:
+### /opt/conda/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 2   --genomeDir star/   --genomeFastaFiles Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa      --genomeSAindexNbases 11   --limitGenomeGenerateRAM 6342450944   --sjdbGTFfile genes.gtf
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa        ~RE-DEFINED
+genomeSAindexNbases           11     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   genes.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               14681069   100304370        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 17
+1	I	230218	0
+2	II	813184	262144
+3	III	316620	1310720
+4	IV	1531933	1835008
+5	V	576874	3407872
+6	VI	270161	4194304
+7	VII	1090940	4718592
+8	VIII	562643	6029312
+9	IX	439888	6815744
+10	X	745751	7340032
+11	XI	666816	8126464
+12	XII	1078177	8912896
+13	XIII	924431	10223616
+14	XIV	784333	11272192
+15	XV	1091291	12058624
+16	XVI	948066	13369344
+17	Mito	85779	14417920
+--sjdbOverhang = 100 taken from the generated genome
+Started loading the genome: Sun Mar 15 14:18:53 2026
+
+Genome: size given as a parameter = 14681069
+SA: size given as a parameter = 100304370
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=11  nSAi=5592404
+nGenome=14681069;  nSAbyte=100304370
+GstrandBit=32   SA number of indices=24316210
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 14681069 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 14681069 bytes
+SA file size: 100304370 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 100304370 bytes
+Loading SAindex ... done: 24466875 bytes
+Finished loading the genome: Sun Mar 15 14:18:53 2026
+
+Processing splice junctions database sjdbN=5,   pGe.sjdbOverhang=100 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Mar 15 14:18:53   Loaded database junctions from the generated genome star_index//sjdbList.out.tab: 5 total junctions
+
+Mar 15 14:18:53 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=Saccharomyces_cerevisiae.R64-1-1.115.gtf, found:
+		7127 transcripts
+		7507 exons (non-collapsed)
+		364 collapsed junctions
+Total junctions: 369
+Mar 15 14:18:53 ..... finished GTF processing
+
+Mar 15 14:18:53   Finished preparing junctions
+Mar 15 14:18:53 ..... inserting junctions into the genome indices
+Mar 15 14:18:53   Finished SA search: number of new junctions=359, old junctions=5
+Mar 15 14:18:53   Finished sorting SA indicesL nInd=143600
+Genome size with junctions=14753228  14680064   73164
+GstrandBit1=32   GstrandBit=32
+Mar 15 14:18:53   Finished inserting junction indices
+Mar 15 14:18:53   Finished SAi
+Mar 15 14:18:53 ..... finished inserting junctions into genome
+Created thread # 1
+Created thread # 2
+Starting to map file # 0
+mate 1:   input1/RAP1_UNINDUCED_REP2_trimmed.fq.gz
+Created thread # 3
+Thread #1 end of input stream, nextChar=-1
+Completed: thread #0
+Completed: thread #3
+Completed: thread #2
+Completed: thread #1
+Joined thread # 1
+Joined thread # 2
+Joined thread # 3
+Mar 15 14:18:56 ..... finished mapping
+RAM after mapping:
+VmPeak:	 2876844 kB; VmSize:	 2811380 kB; VmHWM:	  657868 kB; VmRSS:	  657792 kB; 
+RAM after freeing genome index memory:
+VmPeak:	 2876844 kB; VmSize:	  859516 kB; VmHWM:	  657868 kB; VmRSS:	  423000 kB; 
+ALL DONE!

@@ -1,0 +1,5 @@
+Sample	Top overrepresented sequence	Sum of remaining overrepresented sequences
+RAP1_IAA_30M_REP1_1	0.29	4.928
+RAP1_IAA_30M_REP1_2	0.27	3.884
+RAP1_UNINDUCED_REP1	0.33	5.342
+RAP1_UNINDUCED_REP2	0.302	4.62

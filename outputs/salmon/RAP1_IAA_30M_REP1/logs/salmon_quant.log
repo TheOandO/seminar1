@@ -1,0 +1,45 @@
+[2026-03-15 14:18:59.773] [jointLog] [info] setting maxHashResizeThreads to 4
+[2026-03-15 14:18:59.774] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2026-03-15 14:18:59.774] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2026-03-15 14:18:59.774] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2026-03-15 14:18:59.774] [jointLog] [info] parsing read library format
+[2026-03-15 14:18:59.774] [jointLog] [info] There is 1 library.
+[2026-03-15 14:18:59.774] [jointLog] [info] Loading pufferfish index
+[2026-03-15 14:18:59.774] [jointLog] [info] Loading dense pufferfish index.
+[2026-03-15 14:18:59.810] [jointLog] [info] done
+[2026-03-15 14:18:59.855] [jointLog] [info] Index contained 6577 targets
+[2026-03-15 14:18:59.856] [jointLog] [info] Number of decoys : 17
+[2026-03-15 14:18:59.856] [jointLog] [info] First decoy index : 6560 
+[2026-03-15 14:19:00.081] [fileLog] [info] 
+At end of round 0
+==================
+Observed 49791 total fragments (49791 in most recent round)
+
+[2026-03-15 14:19:00.081] [jointLog] [info] Computed 268 rich equivalence classes for further processing
+[2026-03-15 14:19:00.081] [jointLog] [info] Counted 18479 total reads in the equivalence classes 
+[2026-03-15 14:19:00.083] [jointLog] [info] Number of mappings discarded because of alignment score : 1733
+[2026-03-15 14:19:00.083] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 3481
+[2026-03-15 14:19:00.083] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 3437
+[2026-03-15 14:19:00.083] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 22
+[2026-03-15 14:19:00.083] [jointLog] [warning] Only 18479 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2026-03-15 14:19:00.083] [jointLog] [info] Mapping rate = 37.1131%
+
+[2026-03-15 14:19:00.083] [jointLog] [info] finished quantifyLibrary()
+[2026-03-15 14:19:00.083] [jointLog] [info] Starting optimizer
+[2026-03-15 14:19:00.084] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2026-03-15 14:19:00.084] [jointLog] [info] iteration = 0 | max rel diff. = 37.7849
+[2026-03-15 14:19:00.098] [jointLog] [info] iteration = 100 | max rel diff. = 2.65474e-10
+[2026-03-15 14:19:00.098] [jointLog] [info] Finished optimizer
+[2026-03-15 14:19:00.098] [jointLog] [info] writing output 
+
+[2026-03-15 14:19:00.102] [jointLog] [info] Computing gene-level abundance estimates
+[2026-03-15 14:19:00.326] [jointLog] [info] There were 7127 transcripts mapping to 7127 genes
+[2026-03-15 14:19:00.326] [jointLog] [info] NOTE: We recommend using tximport (https://bioconductor.org/packages/release/bioc/html/tximport.html) for aggregating transcript-level salmon abundance estimates to the gene level.  It is more versatile, exposes more features, and allows considering multi-sample information during aggregation.
+[2026-03-15 14:19:00.330] [jointLog] [info] Aggregating expressions to gene level
+[2026-03-15 14:19:00.336] [jointLog] [info] done
+[2026-03-15 14:19:00.336] [jointLog] [warning] NOTE: Read Lib [[ RAP1_IAA_30M_REP1_1_val_1.fq.gz, RAP1_IAA_30M_REP1_2_val_2.fq.gz]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: RAP1_IAA_30M_REP1/lib_format_counts.json for details
+
