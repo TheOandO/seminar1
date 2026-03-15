@@ -1,2 +1,0 @@
-RAP1_UNINDUCED_REP2 - dupRadar Int (duprate at low read counts): 2.90070146547673e-12 
-RAP1_UNINDUCED_REP2 - dupRadar Sl (progression of the duplication rate): 0.999999999999999

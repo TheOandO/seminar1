@@ -1,4 +1,0 @@
-Sample	reads_aligned	total_alignments	non_unique_alignments	reads_aligned_genes	ambiguous_alignments	not_aligned	ssp_estimation	reads_aligned_exonic	reads_aligned_intronic	reads_aligned_intergenic	reads_aligned_overlapping_exon	5_bias	3_bias	5_3_bias
-RAP1_IAA_30M_REP1	30084	147316	109552	24872	7686	0	0.2	24872	180	5026	2879	0.43	0.42	1.35
-RAP1_UNINDUCED_REP1	27715	58549	40063	11864	4382	0	0.21	11864	48	2192	1904	0.46	0.46	1.01
-RAP1_UNINDUCED_REP2	28009	59858	41345	11813	4587	0	0.22	11813	43	2070	1892	0.41	0.4	1.1
